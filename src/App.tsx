@@ -4,7 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import FileUpload from './components/FileUpload';
 import PdfList from './components/PdfList';
 import MergeButton from './components/MergeButton';
-import './styles.css';
+import './App.css';
 
 const App: React.FC = () => {
   const [pdfFiles, setPdfFiles] = useState<File[]>([]);
